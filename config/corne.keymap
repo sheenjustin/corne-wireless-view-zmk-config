@@ -32,10 +32,10 @@
 
         lower_layer {
             bindings = <
-&trans  &mt F11 F1                &mt F2 F12            &kp F3               &kp F4            &kp F5         &kp F6            &kp F7                       &kp F8                    &kp F9                          &kp F10                         &trans
-&trans  &mt LEFT_GUI EXCLAMATION  &mt LEFT_ALT AT_SIGN  &mt LEFT_SHIFT HASH  &mt LCTRL DOLLAR  &kp PERCENT    &kp CARET         &mt RIGHT_CONTROL AMPERSAND  &mt RIGHT_SHIFT ASTERISK  &mt RIGHT_ALT LEFT_PARENTHESIS  &mt LEFT_GUI RIGHT_PARENTHESIS  &trans
-&trans  &kp MINUS                 &kp UNDER             &kp PLUS             &kp EQUAL         &kp PIPE       &kp LEFT_BRACKET  &kp RIGHT_BRACKET            &kp LEFT_BRACE            &kp RIGHT_BRACE                 &kp ENTER                       &trans
-                                                        &trans               &trans            &mo 3          &trans            &trans                       &trans
+&trans  &mt F1 NUMBER_1           &mt F2 NUMBER_2       &mt F3 NUMBER_3      &mt F4 NUMBER_4   &mt F5 NUMBER_5    &mt F6 NUMBER_6   &mt F7 NUMBER_7              &mt F8 NUMBER_8           &mt F9 NUMBER_9                 &mt F10 NUMBER_0                &trans
+&trans  &mt LEFT_GUI EXCLAMATION  &mt LEFT_ALT AT_SIGN  &mt LEFT_SHIFT HASH  &mt LCTRL DOLLAR  &mt F11 PERCENT    &mt F12 CARET     &mt RIGHT_CONTROL AMPERSAND  &mt RIGHT_SHIFT ASTERISK  &mt RIGHT_ALT LEFT_PARENTHESIS  &mt LEFT_GUI RIGHT_PARENTHESIS  &trans
+&trans  &kp MINUS                 &kp UNDER             &kp PLUS             &kp EQUAL         &kp PIPE           &kp LEFT_BRACKET  &kp RIGHT_BRACKET            &kp LEFT_BRACE            &kp RIGHT_BRACE                 &kp ENTER                       &trans
+                                                        &trans               &trans            &mo 3              &trans            &trans                       &trans
             >;
         };
 
